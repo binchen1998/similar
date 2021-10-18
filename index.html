@@ -13,6 +13,7 @@
   </style>
   <script src="p5.js"></script>
   <!-- <script src="../addons/p5.sound.js"></script> -->
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@2.0.0/dist/tf.min.js"></script>
   <script src="sketch.js"></script>
 </head>
 
@@ -22,6 +23,7 @@
   <button id="print1" onclick="print_data1();">print1</button>
   <button id="print2" onclick="print_data2();">print2</button>
   <button id="compute" onclick="compute();">compute</button>
+  <button id="cmp" onclick="cmp();">cmp</button>
 
   <div id="c1">
 
@@ -29,6 +31,11 @@
   <div id="c2">
     
   </div>
+  <img id="img1" src="square.jpg">
+  <img id="img2" src="square3.jpg">
+  <canvas id="canvas2">
+
+  </canvas>
   <main>
   </main>
 </body>
